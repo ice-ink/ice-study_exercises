@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.cjs
+
+# TypeScript / JavaScript build output
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+
+# Test and coverage output
+coverage/
+.nyc_output/
+
+# Rust / Cargo build output
+target/
+
+# Rust-generated binaries
+# (Cargo build artifacts are already excluded by target/)
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDEs and editors
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local temporary files
+tmp/
+temp/
+*.tmp
+
+# agents
+agent-instructions.md
+**/agent-instructions.md
